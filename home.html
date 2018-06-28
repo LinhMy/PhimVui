@@ -1,207 +1,1863 @@
-
 <!DOCTYPE html>
-<html >
-	<!-- header-->
-	<head> 
-		<meta charset="utf-8"/> 		
-		<link rel="apple-touch-icon" type="image/png" href="http://vung.tv/favicon.png"/>
-		<link href="/css/style.css" type="text/css" rel="stylesheet">
-		<title>Vừng Tv | Phim Hay | Phim Hd | Xem Phim Online | Xem Phim Nhanh</title>
-		<script type="text/javascript" src="/js/jquery/jquery.min.js"> </script> 
-	 </head>
-	 <!--Phan body -->
-	<body class="body-page ">
-		<div id="fb-root"></div>
-		<nav class="navbar navbar-default" role="navigation"> 
-			<div class="container-fluid navbar-top"> 
-				<!-- Brand and toggle get grouped for better mobile display --> 
-				<div class="navbar-header"> 
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> 
-						<span class="sr-only">Toggle navigation</span> 
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span> 
-						<span class="icon-bar"></span> 
-					</button> 
-					<a class="navbar-brand" href="http://vung.tv/">
-						<img src="http://vung.tv/desktop/assets/img/logo-top.png" alt="Vừng TV">
-					</a>
-				</div> 
+<html lang="vi" dir="LTR" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="images/favicon.png"/>
+    <link rel="apple-touch-icon" type="image/png" href="images/favicon.png"/>
+    <title>Phim Vui Chấm Net</title>
+    <meta name="keywords"
+          content="Phim,xem phim,xem phim online,phim online,xem phim hd,phim hd,phim vung,vungtv,vung tv"/>
+    <meta name="description"  content="Xem phim online HD chất lượng cao miễn phí, phim mới, phim vietsub phim thuyết minh các thể loại phim lẻ, phim bộ, phim hành động, tâm lý, hải hước hấp dẫn"/>
+       
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css"/>
+   
+    
+    <script type="text/javascript" src="js/v.min.js?v=2.0.40"></script>
+    <script type="text/javascript" src="js/main-header.js?v=2.0.40"></script>
+    <script type="text/javascript" src="js/admanager.js"></script>
+   
+</head>
+<body class="body-page ">
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid navbar-top"> <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1"><span class="sr-only">Toggle navigation</span> <span
+                        class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+            <a class="navbar-brand" href="http://vung.tv/"><img src="images/logo-top.png"
+                                                                alt="Vừng TV"> </a></div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Thể Loại <span
+                                class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="abc/the-loai/am-nhac">&Acirc;m nhạc</a></li>
+                        <li><a href="abc/the-loai/anime">Anime</a></li>
+                        <li><a href="abc/the-loai/bi-an">B&iacute; ẩn</a></li>
+                        <li><a href="abc/the-loai/chien-tranh">Chiến tranh</a></li>
+                        <li><a href="abc/the-loai/dam-my-bach-hop">Đam Mỹ - B&aacute;ch Hợp</a></li>
+                        <li><a href="abc/the-loai/gia-dinh">Gia đ&igrave;nh</a></li>
+                        <li><a href="abc/the-loai/gia-tuong-than-thoai">Giả tưởng - Thần thoại</a></li>
+                        <li><a href="abc/the-loai/giat-gan">Giật g&acirc;n</a></li>
+                        <li><a href="abc/the-loai/hai">H&agrave;i</a></li>
+                        <li><a href="abc/the-loai/hanh-dong">H&agrave;nh động</a></li>
+                        <li><a href="abc/the-loai/hinh-su">H&igrave;nh sự</a></li>
+                        <li><a href="abc/the-loai/hoat-hinh">Hoạt h&igrave;nh</a></li>
+                        <li><a href="abc/the-loai/khoa-hoc-tai-lieu">Khoa học &amp; T&agrave;i liệu</a></li>
+                        <li><a href="abc/the-loai/khoa-hoc-vien-tuong">Khoa học viễn tưởng</a></li>
+                        <li><a href="abc/the-loai/kiem-hiep-co-trang-vo-thuat">Kiếm hiệp - Cổ trang</a></li>
+                        <li><a href="abc/the-loai/kinh-di">Kinh dị</a></li>
+                        <li><a href="abc/the-loai/le-trao-giai">Lễ trao giải</a></li>
+                        <li><a href="abc/the-loai/lich-su-tieu-su">Lịch sử - Tiểu sử</a></li>
+                        <li><a href="abc/the-loai/phieu-luu">Phi&ecirc;u lưu</a></li>
+                        <li><a href="abc/the-loai/tam-ly">T&acirc;m l&yacute;</a></li>
+                        <li><a href="abc/the-loai/thanh-xuan-hoc-duong">Thanh Xu&acirc;n - Học Đường</a></li>
+                        <li><a href="abc/the-loai/the-thao">Thể thao</a></li>
+                        <li><a href="abc/the-loai/thoi-trang">Thời trang</a></li>
+                        <li><a href="abc/the-loai/tinh-cam-lang-man">T&igrave;nh cảm - L&atilde;ng mạn</a>
+                        </li>
+                        <li><a href="abc/the-loai/truyen-hinh-thuc-te">Truyền h&igrave;nh thực tế</a></li>
+                        <li><a href="abc/the-loai/vien-tay">Viễn t&acirc;y</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Quốc Gia <span
+                                class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="abc/quoc-gia/an-do">Ấn Độ</a></li>
+                        <li><a href="abc/quoc-gia/anh">Anh</a></li>
+                        <li><a href="abc/quoc-gia/han-quoc">H&agrave;n Quốc</a></li>
+                        <li><a href="abc/quoc-gia/hong-kong">Hồng K&ocirc;ng</a></li>
+                        <li><a href="abc/quoc-gia/my">Mỹ</a></li>
+                        <li><a href="abc/quoc-gia/nhat-ban">Nhật Bản</a></li>
+                        <li><a href="abc/quoc-gia/phap">Ph&aacute;p</a></li>
+                        <li><a href="abc/quoc-gia/tay-ban-nha">T&acirc;y Ban Nha</a></li>
+                        <li><a href="abc/quoc-gia/thai-lan">Th&aacute;i Lan</a></li>
+                        <li><a href="abc/quoc-gia/trung-quoc">Trung Quốc</a></li>
+                        <li><a href="abc/quoc-gia/viet-nam">Việt Nam</a></li>
+                        <li><a href="abc/quoc-gia/dai-loan">Đ&agrave;i Loan</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="abc/phim-le" class="dropdown-toggle" role="button"
+                                        aria-expanded="false">Phim Lẻ <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="abc/phim-le/2018">2018</a></li>
+                        <li><a href="abc/phim-le/2017">2017</a></li>
+                        <li><a href="abc/phim-le/2016">2016</a></li>
+                        <li><a href="abc/phim-le/2015">2015</a></li>
+                        <li><a href="abc/phim-le/2014">2014</a></li>
+                        <li><a href="abc/phim-le/2013">2013</a></li>
+                        <li><a href="abc/phim-le/2012">2012</a></li>
+                        <li><a href="abc/phim-le/2011">2011</a></li> <!----> <!---->
+                        <!--<li><a href="abc/phim-le/an-do">Ấn Độ</a></li>--> <!---->
+                        <!--<li><a href="abc/phim-le/anh">Anh</a></li>--> <!---->
+                        <!--<li><a href="abc/phim-le/han-quoc">H&agrave;n Quốc</a></li>--> <!---->
+                        <!--<li><a href="abc/phim-le/hong-kong">Hồng K&ocirc;ng</a></li>--> <!---->
+                        <!--<li><a href="abc/phim-le/my">Mỹ</a></li>--> <!---->
+                        <!--<li><a href="abc/phim-le/nhat-ban">Nhật Bản</a></li>--> <!---->
+                        <!--<li><a href="abc/phim-le/phap">Ph&aacute;p</a></li>--> <!---->
+                        <!--<li><a href="abc/phim-le/tay-ban-nha">T&acirc;y Ban Nha</a></li>--> <!---->
+                        <!--<li><a href="abc/phim-le/thai-lan">Th&aacute;i Lan</a></li>--> <!---->
+                        <!--<li><a href="abc/phim-le/trung-quoc">Trung Quốc</a></li>--> <!---->
+                        <!--<li><a href="abc/phim-le/viet-nam">Việt Nam</a></li>--> <!---->
+                        <!--<li><a href="abc/phim-le/dai-loan">Đ&agrave;i Loan</a></li>--> <!----> <!---->
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="abc/phim-bo" class="dropdown-toggle" role="button"
+                                        aria-expanded="false">Phim Bộ<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="abc/phim-bo/an-do">Ấn Độ</a></li>
+                        <li><a href="abc/phim-bo/anh">Anh</a></li>
+                        <li><a href="abc/phim-bo/han-quoc">H&agrave;n Quốc</a></li>
+                        <li><a href="abc/phim-bo/hong-kong">Hồng K&ocirc;ng</a></li>
+                        <li><a href="abc/phim-bo/my">Mỹ</a></li>
+                        <li><a href="abc/phim-bo/nhat-ban">Nhật Bản</a></li>
+                        <li><a href="abc/phim-bo/phap">Ph&aacute;p</a></li>
+                        <li><a href="abc/phim-bo/tay-ban-nha">T&acirc;y Ban Nha</a></li>
+                        <li><a href="abc/phim-bo/thai-lan">Th&aacute;i Lan</a></li>
+                        <li><a href="abc/phim-bo/trung-quoc">Trung Quốc</a></li>
+                        <li><a href="abc/phim-bo/viet-nam">Việt Nam</a></li>
+                        <li><a href="abc/phim-bo/dai-loan">Đ&agrave;i Loan</a></li>
+                    </ul>
+                </li>
+                <li><a href="http://vung.tv/phim-de-cu">Phim Đề Cử</a>
+                <li><a href="http://vung.tv/phim-chieu-rap">Phim Chiếu Rạp</a>
+                <li><a href="http://2tin.net/" target="_blank">Tin Tức</a>
+                    <!--<li><a href="//vung.tv/kho-anh/" target="_blank">Kho Ảnh</a>-->
+                <!--li><a href="http://vung.tv/giftcode" class="napvip">Giftcode</a></li-->
+                <!--<li><a href="http://vung.tv/user/recharge" class="napvip">Nạp VIP</a></li>-->
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <form class="navbar-form" enctype="application/x-www-form-urlencoded" role="search"
+                          id="search-block" method="get" action="http://vung.tv/tim-kiem/">
+                        <div class="form-group"><input type="text" class="form-control" id="query_search"
+                                                       placeholder="Search" name="q" maxlength="100"
+                                                       autocomplete="off"/></div>
+                        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span>
+                        </button>
+                        <div class="search-hint" id="search-hint"></div>
+                    </form>
+                </li>
+                <li>
+                    <button type="button" class="nut-dangnhap"
+                            onclick="javascript:window.location='http://vung.tv/dang-nhap'">Đăng nhập
+                    </button>
+                </li> <!--<li><button type="button" class="nut-dangnhap">Đăng nhập</button></li>--> </ul>
+        </div> <!-- /.navbar-collapse --> </div> <!-- /.container-fluid -->
+</nav>
+<div id="bswrapper_inhead"></div>
+<div class="container khoi-body">
+    <div class="khoi-trai">
+        <div class="slider top-slider">
+            <div class="item" style="float:left"><a href="abc/xemphim/rampage-sieu-thu-cuong-no-19892"
+                                                    style="background-image:url('images/slide/bg_01_ngp39176.jpg')"></a>
+            </div>
+            <div class="item" style="float:left"><a href="abc/xemphim/black-panther-chien-binh-bao-den-19527"
+                                                    style="background-image:url('images/slide/bg_01_ngp39177.jpg')"></a>
+            </div>
+            <div class="item" style="float:left"><a href="abc/xemphim/ready-player-one-dau-truong-ao-19834"
+                                                    style="background-image:url('images/slide/bg_01_ngp39178.jpg')"></a>
+            </div>
+            <div class="item" style="float:left"><a
+                        href="abc/xemphim/phu-dao-hoang-hau-legend-of-fu-yao-19761"
+                        style="background-image:url('images/slide/bg_01_ngp39179.jpg')"></a>
+            </div>
+            <div class="item" style="float:left"><a
+                        href="abc/xemphim/pacific-rim-uprising-dai-chien-thai-binh-duong-troi-day-19814"
+                        style="background-image:url('images/slide/bg_01_ngp39180.jpg')"></a>
+            </div>
+            <div class="item" style="float:left"><a
+                        href="abc/xemphim/westworld-season-2-the-gioi-vien-tay-phan-2-19911"
+                        style="background-image:url('images/slide/bg_01_ngp39181.jpg')"></a>
+            </div>
+            <div class="item" style="float:left"><a href="abc/xemphim/a-quiet-place-vung-dat-cam-lang-19976"
+                                                    style="background-image:url('images/slide/bg_01_ngp39182.jpg')"></a>
+            </div>
+            <div class="item" style="float:left"><a
+                        href="abc/xemphim/tomb-raider-tomb-raider-huyen-thoai-bat-dau-19813"
+                        style="background-image:url('images/slide/bg_01_ngp39183.jpg')"></a>
+            </div>
+            <div class="item" style="float:left"><a
+                        href="abc/xemphim/thor-ragnarok-than-sam-3-thoi-khac-tan-the-17458"
+                        style="background-image:url('images/slide/bg_01_ngp39184.jpg')"></a>
+            </div>
+            <div class="item" style="float:left"><a href="http://vung.tv/tag/marvel"
+                                                    style="background-image:url('images/slide/bg_01_ngp39185.jpg')"></a>
+            </div>
+            <div class="item" style="float:left"><a href="abc/xemphim/love-simon-thuong-men-simon-19995"
+                                                    style="background-image:url('images/slide/bg_01_ngp39186.jpg')"></a>
+            </div>
+            <div class="item" style="float:left"><a href="abc/xemphim/red-sparrow-diep-vu-chim-se-do-19526"
+                                                    style="background-image:url('images/slide/bg_01_ngp39187.jpg')"></a>
+            </div>
+        </div>
+        <div class="quangcao">
+            <script type="text/javascript"
+                    src="//vn-platform.bidgear.com/ads.php?domainid=1194&sizeid=1&zoneid=1762&k=5b18bfead1c02"></script>
+            <br>
+            <div id="adflex_tag_4889388187776178835"></div>
+            <script data-cfasync='false' type='text/javascript' src='//cpm.adflex.asia/static/js/rtb.js' async></script>
+            <script type="text/javascript"> var adflex_tags = window.adflex_tags || [];
+                adflex_tags.push({tag_id: "4889388187776178835", width: 728, height: 90});
+            </script>
+        </div>
+        <div class="group-film"><h2><a href="http://vung.tv/phim-de-cu">phim đề cử
+            <i class="fa fa-caret-right"  aria-hidden="true">                
+            </i></a></h2> <a
+                    href="http://vung.tv/phim-de-cu" class="more"></a> <span class="line-ngang"></span>
+            <div class="phimdecu-slider">
+                <div class="item"><a href="abc/xemphim/da-den-luc-about-time-20042"
+                                     style="background-image:url(images/movies/poster_01_jrp54368.jpg)">
+                        <div class="black-gradient"><b class="title-film">Đã Đến Lúc </b>
+                            <p>About Time (2018)</p>
+                            <div class="sotap">11/16</div>
+                            <ul class="tag-film">
+                                <li>
+                                    <div class="hd">HD</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="play"></div>
+                    </a></div>
+                <div class="item"><a href="abc/xemphim/nghin-le-mot-dem-sweet-dreams-20165"
+                                     style="background-image:url(images/movies/poster_01_jrp54368.jpg)">
+                        <div class="black-gradient"><b class="title-film">Nghìn Lẻ Một Đêm </b>
+                            <p>Sweet Dreams (2018)</p>
+                            <div class="sotap">3/20</div>
+                            <ul class="tag-film">
+                                <li>
+                                    <div class="hd">HD</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="play"></div>
+                    </a></div>
+                <div class="item"><a href="abc/xemphim/phu-dao-hoang-hau-legend-of-fu-yao-19761"
+                                     style="background-image:url(images/movies/poster_01_jrp54368.jpg)">
+                        <div class="black-gradient"><b class="title-film">Phù Dao Hoàng Hậu</b>
+                            <p>Legend of Fu Yao (2018)</p>
+                            <div class="sotap">16/60</div>
+                            <ul class="tag-film">
+                                <li>
+                                    <div class="hd">HD</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="play"></div>
+                    </a></div>
+                <div class="item"><a
+                            href="abc/xemphim/santa-clarita-diet-season-2-an-kieng-o-santa-clarita-phan-2-20358"
+                            style="background-image:url(images/movies/poster_01_jrp54368.jpg)">
+                        <div class="black-gradient"><b class="title-film">Ăn Kiêng Ở Santa Clarita Phần 2</b>
+                            <p>Santa Clarita Diet Season 2 (2018)</p>
+                            <div class="sotap">1/10</div>
+                            <ul class="tag-film">
+                                <li>
+                                    <div class="hd">HD</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="play"></div>
+                    </a></div>
+                <div class="item"><a href="abc/xemphim/van-tich-truyen-legend-of-yun-xi-20201"
+                                     style="background-image:url(images/movies/poster_01_jrp54368.jpg)">
+                        <div class="black-gradient"><b class="title-film">Vân Tịch Truyện </b>
+                            <p>Legend of Yun Xi (2018)</p>
+                            <div class="sotap">20/48</div>
+                            <ul class="tag-film">
+                                <li>
+                                    <div class="hd">HD</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="play"></div>
+                    </a></div>
+                <div class="item"><a href="abc/xemphim/marry-me-now-shall-we-live-together-19720"
+                                     style="background-image:url(images/movies/poster_01_jrp54368.jpg)">
+                        <div class="black-gradient"><b class="title-film">Làm Vợ Anh Nhé</b>
+                            <p>Marry Me Now? (2018)</p>
+                            <div class="sotap">29/50</div>
+                            <ul class="tag-film">
+                                <li>
+                                    <div class="hd">HD</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="play"></div>
+                    </a></div>
+                <div class="item"><a href="abc/xemphim/fighting-time-the-luc-canh-tranh-20108"
+                                     style="background-image:url(images/movies/poster_01_jrp54368.jpg)">
+                        <div class="black-gradient"><b class="title-film">Thế Lực Cạnh Tranh</b>
+                            <p>Fighting Time (2017)</p>
+                            <div class="sotap">38/56</div>
+                            <ul class="tag-film">
+                                <li>
+                                    <div class="hd">HD</div>
+                                </li>
+                                <li>
+                                    <div class="sd tm">tm</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="play"></div>
+                    </a></div>
+                <div class="item"><a href="abc/xemphim/mai-sin-rai-fai-sawart-ngon-lua-dam-me-bat-diet-20106"
+                                     style="background-image:url(images/movies/poster_01_jrp54368.jpg)">
+                        <div class="black-gradient"><b class="title-film">Ngọn Lửa Đam Mê Bất Diệt</b>
+                            <p>Mai Sin Rai Fai Sawart (2018)</p>
+                            <div class="sotap">16/16</div>
+                            <ul class="tag-film">
+                                <li>
+                                    <div class="hd">HD</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="play"></div>
+                    </a></div>
+                <div class="item"><a href="abc/xemphim/luat-su-vo-phap-lawless-lawyer-19982"
+                                     style="background-image:url(images/movies/poster_01_jrp54368.jpg)">
+                        <div class="black-gradient"><b class="title-film">Luật Sư Vô Pháp </b>
+                            <p>Lawless Lawyer (2018)</p>
+                            <div class="sotap">14/20</div>
+                            <ul class="tag-film">
+                                <li>
+                                    <div class="hd">HD</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="play"></div>
+                    </a></div>
+                <div class="item"><a href="abc/xemphim/chao-lua-tinh-yeu-wok-of-love-19954"
+                                     style="background-image:url(images/movies/poster_01_jrp54368.jpg)">
+                        <div class="black-gradient"><b class="title-film">Chảo Lửa Tình Yêu </b>
+                            <p>Wok of Love (2018)</p>
+                            <div class="sotap">24/40</div>
+                            <ul class="tag-film">
+                                <li>
+                                    <div class="hd">HD</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="play"></div>
+                    </a></div>
+                <div class="item"><a href="abc/xemphim/chao-tam-biet-good-bye-to-good-bye-20124"
+                                     style="background-image:url(images/movies/poster_01_jrp54368.jpg)">
+                        <div class="black-gradient"><b class="title-film">Chào Tạm Biệt </b>
+                            <p>Good Bye To Good Bye (2018)</p>
+                            <div class="sotap">16/40</div>
+                            <ul class="tag-film">
+                                <li>
+                                    <div class="hd">HD</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="play"></div>
+                    </a></div>
+                <div class="item"><a
+                            href="abc/xemphim/paul-apostle-of-christ-thanh-phaolo-tong-do-cua-chua-kito-20246"
+                            style="background-image:url(images/movies/poster_01_jrp54368.jpg)">
+                        <div class="black-gradient"><b class="title-film">Sứ Đồ Của Chúa Kito</b>
+                            <p>Paul, Apostle of Christ (2018)</p>
+                            <ul class="tag-film">
+                                <li>
+                                    <div class="hd">HD</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="play"></div>
+                    </a></div>
+                <div class="item"><a href="abc/xemphim/ready-player-one-dau-truong-ao-19834"
+                                     style="background-image:url(images/movies/poster_01_jrp54368.jpg)">
+                        <div class="black-gradient"><b class="title-film">Đấu Trường Ảo</b>
+                            <p>Ready Player One (2018)</p>
+                            <ul class="tag-film">
+                                <li>
+                                    <div class="hd">HD</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="play"></div>
+                    </a></div>
+                <div class="item"><a href="abc/xemphim/dong-mau-kieu-hanh-luead-rak-torranong-20126"
+                                     style="background-image:url(images/movies/poster_01_jrp54368.jpg)">
+                        <div class="black-gradient"><b class="title-film">Dòng Máu Kiêu Hãnh </b>
+                            <p>Luead Rak Torranong (2016)</p>
+                            <div class="sotap">10/14</div>
+                            <ul class="tag-film">
+                                <li>
+                                    <div class="hd">HD</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="play"></div>
+                    </a></div>
+                <div class="item"><a href="abc/xemphim/nhiet-huyet-cuong-lam-basketball-fever-19980"
+                                     style="background-image:url(images/movies/poster_01_jrp54368.jpg)">
+                        <div class="black-gradient"><b class="title-film">Nhiệt Huyết Cuồng Lam </b>
+                            <p>Basketball Fever (2018)</p>
+                            <div class="sotap">36/36</div>
+                            <ul class="tag-film">
+                                <li>
+                                    <div class="hd">HD</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="play"></div>
+                    </a></div>
+                <div class="item"><a href="abc/xemphim/nguoi-me-bi-mat-secret-mother-19983"
+                                     style="background-image:url(images/movies/poster_01_jrp54368.jpg)">
+                        <div class="black-gradient"><b class="title-film">Người Mẹ Bí Mật</b>
+                            <p>Secret Mother (2018)</p>
+                            <div class="sotap">12/40</div>
+                            <ul class="tag-film">
+                                <li>
+                                    <div class="hd">HD</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="play"></div>
+                    </a></div>
+                <div class="item"><a href="abc/xemphim/hoa-ke-sat-nhan-sketch-20119"
+                                     style="background-image:url(images/movies/poster_01_jrp54368.jpg)">
+                        <div class="black-gradient"><b class="title-film">Họa Kẻ Sát Nhân </b>
+                            <p>Sketch (2018)</p>
+                            <div class="sotap">10/16</div>
+                            <ul class="tag-film">
+                                <li>
+                                    <div class="hd">HD</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="play"></div>
+                    </a></div>
+                <div class="item"><a href="abc/xemphim/chang-giau-nang-ngheo-rich-man-19990"
+                                     style="background-image:url(images/movies/poster_01_jrp54368.jpg)">
+                        <div class="black-gradient"><b class="title-film">Chàng Giàu Nàng Nghèo</b>
+                            <p>Rich Man (2018)</p>
+                            <div class="sotap">14/16</div>
+                            <ul class="tag-film">
+                                <li>
+                                    <div class="hd">HD</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="play"></div>
+                    </a></div>
+                <div class="item"><a href="abc/xemphim/krypton-season-1-krypton-phan-1-19773"
+                                     style="background-image:url(images/movies/poster_01_jrp54368.jpg)">
+                        <div class="black-gradient"><b class="title-film">Hành Tinh Siêu Nhân Phần 1</b>
+                            <p>Krypton Season 1 (2018)</p>
+                            <div class="sotap">10/10</div>
+                            <ul class="tag-film">
+                                <li>
+                                    <div class="hd">HD</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="play"></div>
+                    </a></div>
+                <div class="item"><a
+                            href="abc/xemphim/nanatsu-no-taizai-season-3-nanatsu-no-taizai-imashime-no-fukkatsu-19381"
+                            style="background-image:url(images/movies/poster_01_jrp54368.jpg)">
+                        <div class="black-gradient"><b class="title-film">Nanatsu no Taizai: Imashime no Fukkatsu</b>
+                            <p>The Seven Deadly Sins: Revival of the Commandments (2018)</p>
+                            <div class="sotap">23/24</div>
+                            <ul class="tag-film">
+                                <li>
+                                    <div class="hd">HD</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="play"></div>
+                    </a></div>
+                <div class="item"><a href="abc/xemphim/legion-season-2-di-nhan-legion-phan-2-19840"
+                                     style="background-image:url(images/movies/poster_01_jrp54368.jpg)">
+                        <div class="black-gradient"><b class="title-film">Dị Nhân Legion: Phần 2</b>
+                            <p>Legion: Season 2 (2018)</p>
+                            <div class="sotap">11/11</div>
+                            <ul class="tag-film">
+                                <li>
+                                    <div class="hd">HD</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="play"></div>
+                    </a></div>
+                <div class="item"><a
+                            href="abc/xemphim/thu-ky-kim-sao-the-whats-wrong-with-secretary-kim-20113"
+                            style="background-image:url(images/movies/poster_01_jrp54368.jpg)">
+                        <div class="black-gradient"><b class="title-film">Thư Ký Kim Sao Thế </b>
+                            <p>What's Wrong With Secretary Kim (2018)</p>
+                            <div class="sotap">6/16</div>
+                            <ul class="tag-film">
+                                <li>
+                                    <div class="hd">HD</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="play"></div>
+                    </a></div>
+                <div class="item"><a
+                            href="abc/xemphim/mot-manh-dat-mot-bau-troi-neung-dao-fah-diew-one-land-one-sky-19919"
+                            style="background-image:url(images/movies/poster_01_jrp54368.jpg)">
+                        <div class="black-gradient"><b class="title-film">Một Mảnh Đất, Một Bầu Trời</b>
+                            <p>One Land One Sky - Neung Dao Fah Diew (2018)</p>
+                            <div class="sotap">32/32</div>
+                            <ul class="tag-film">
+                                <li>
+                                    <div class="hd">HD</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="play"></div>
+                    </a></div>
+                <div class="item"><a href="abc/xemphim/den-om-em-come-and-hug-me-F180524-20026"
+                                     style="background-image:url(images/movies/poster_01_jrp54368.jpg)">
+                        <div class="black-gradient"><b class="title-film">Đến Ôm Em </b>
+                            <p>Come and Hug Me (2018)</p>
+                            <div class="sotap">18/32</div>
+                            <ul class="tag-film">
+                                <li>
+                                    <div class="hd">HD</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="play"></div>
+                    </a></div>
+                <div class="item"><a href="abc/xemphim/westworld-season-2-the-gioi-vien-tay-phan-2-19911"
+                                     style="background-image:url(images/movies/poster_01_jrp54368.jpg)">
+                        <div class="black-gradient"><b class="title-film">Thế Giới Viễn Tây: Phần 2</b>
+                            <p>Westworld: Season 2 (2018)</p>
+                            <div class="sotap">9/10</div>
+                            <ul class="tag-film">
+                                <li>
+                                    <div class="hd">HD</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="play"></div>
+                    </a></div>
+            </div>
+        </div>
+        <div class="group-film" id="cat-phim-chieu-rap" data-page="1" data-slug=""><h2><a href="http://vung.tv/phim-chieu-rap">phim chiếu rạp
+            <i class="fa fa-caret-right" aria-hidden="true"></i></a></h2>
+            <ul class="sapxep">
+                <li><a href="javascript:;" onclick="phim_chieu_rap('', 1, '');" title="Ngày cập nhật" class="active">Ngày
+                        cập nhật</a></li>
+                <li><a href="javascript:;" onclick="phim_chieu_rap('', 1, 'imdb');" title="IMDB">IMDB</a></li>
+                <li><a href="javascript:;" onclick="phim_chieu_rap('', 1, 'name');" title="Tên phim">Tên phim</a></li>
+            </ul>
+            <a href="http://vung.tv/phim-chieu-rap" class="more"></a> <span class="line-ngang"></span>
+            <div class="arrow"><a href="javascript:;" onclick="phim_chieu_rap('', 0, '');" class="left disabled"></a> <a
+                        href="javascript:;" onclick="phim_chieu_rap('', 2, '');" class="right "></a></div>
+            <div class="group-film-small"><a href="abc/xemphim/ready-player-one-dau-truong-ao-19834"
+                                             class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_rum23767.jpg')">
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Đấu Trường Ảo</b>
+                        <p>Ready Player One (2018)</p></div>
+                </a> <a href="abc/xemphim/selfie-from-hell-selfie-voi-than-chet-19964" class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_rum23767.jpg')">
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Selfie Với Thần Chết</b>
+                        <p>Selfie from Hell (2018)</p></div>
+                </a> <a href="abc/xemphim/escape-plan-2-hades-ke-hoach-dao-tau-2-20129" class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_igk54054.jpg')">
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Kế Hoạch Đào Tẩu 2: Địa Ngục</b>
+                        <p>Escape Plan 2: Hades (2018)</p></div>
+                </a> <a href="abc/xemphim/net-i-die-tai-khoan-ma-19052" class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_nfu40189.jpg')">
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Tài Khoản Ma</b>
+                        <p>Net I Die (2017)</p></div>
+                </a> <a href="abc/xemphim/rampage-sieu-thu-cuong-no-19892" class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_ije35875.jpg')">
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Siêu Thú Cuồng Nộ</b>
+                        <p>Rampage (2018)</p></div>
+                </a> <a href="abc/xemphim/death-wish-than-chet-19960" class="film-small no-margin">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_nmt13823.jpg')">
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Thần Chết</b>
+                        <p>Death Wish (2018)</p></div>
+                </a></div>
+        </div>
+        <div class="quangcao"><!-- Begin js tags AdTrue for vung.tv_728x90 - Do not Modify -->
+            <div id="adtrue_tag_8700"></div>
+            <script data-cfasync='false' type='text/javascript' src='//cdn.adtrue.com/rtb/async.js' async></script>
+            <script type="text/javascript"> var adtrue_tags = window.adtrue_tags || [];
+                adtrue_tags.push({tag_id: 8700, width: 728, height: 90,});
+            </script>
+            <!-- End Tags --></div>
+        <div class="group-film" id="cat-phim-bo" data-page="1" data-slug=""><h2><a href="abc/phim-bo">phim bộ
+                    chọn lọc<i class="fa fa-caret-right" aria-hidden="true"></i></a></h2>
+            <ul class="phanloai">
+                <li><a href="javascript:;" onclick="phim_bo('my', 1, '');" title="Phim bộ Mỹ">Mỹ</a></li>
+                <li><a href="javascript:;" onclick="phim_bo('han-quoc', 1, '');" title="Phim bộ Hàn quốc">Hàn</a></li>
+                <li><a href="javascript:;" onclick="phim_bo('trung-quoc', 1, '');" title="Phim bộ Trung quốc">Trung
+                        Quốc</a></li>
+            </ul>
+            <ul class="sapxep">
+                <li><a href="javascript:;" onclick="phim_bo('', 1, '');" title="Ngày cập nhật" class="active">Ngày cập
+                        nhật</a></li>
+                <li><a href="javascript:;" onclick="phim_bo('', 1, 'imdb');" title="IMDB">IMDB</a></li>
+                <li><a href="javascript:;" onclick="phim_bo('', 1, 'name');" title="Tên phim">Tên phim</a></li>
+            </ul>
+            <a href="abc/phim-bo" class="more"></a> <span class="line-ngang"></span>
+            <div class="arrow"><a href="javascript:;" onclick="phim_bo('', 0, '');" class="left disabled"></a> <a
+                        href="javascript:;" onclick="phim_bo('', 2, '');" class="right "></a></div>
+            <div class="group-film-small"><a href="abc/xemphim/da-den-luc-about-time-20042"
+                                             class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_isr40940.jpg')">
+                        <div class="sotap">11/16</div>
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Đã Đến Lúc </b>
+                        <p>About Time (2018)</p></div>
+                </a> <a href="abc/xemphim/nghin-le-mot-dem-sweet-dreams-20165" class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_đn36027.jpg')">
+                        <div class="sotap">3/20</div>
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Nghìn Lẻ Một Đêm </b>
+                        <p>Sweet Dreams (2018)</p></div>
+                </a> <a href="abc/xemphim/phu-dao-hoang-hau-legend-of-fu-yao-19761" class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_ddo88576.jpg')">
+                        <div class="sotap">16/60</div>
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Phù Dao Hoàng Hậu</b>
+                        <p>Legend of Fu Yao (2018)</p></div>
+                </a> <a href="abc/xemphim/santa-clarita-diet-season-2-an-kieng-o-santa-clarita-phan-2-20358"
+                        class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_der70432.jpg')">
+                        <div class="sotap">1/10</div>
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Ăn Kiêng Ở Santa Clarita Phần 2</b>
+                        <p>Santa Clarita Diet Season 2 (2018)</p></div>
+                </a> <a href="abc/xemphim/van-tich-truyen-legend-of-yun-xi-20201" class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_dhn98279.jpg')">
+                        <div class="sotap">20/48</div>
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Vân Tịch Truyện </b>
+                        <p>Legend of Yun Xi (2018)</p></div>
+                </a> <a href="abc/xemphim/taken-season-2-cuong-doat-phan-2-19534"
+                        class="film-small no-margin">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_djp10670.jpg')">
+                        <div class="sotap">15/16</div>
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Cưỡng Đoạt: Phần 2</b>
+                        <p>Taken: Season 2 (2018)</p></div>
+                </a> <a href="abc/xemphim/hon-ma-nang-vu-uu-wang-nang-hong-20128" class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_dkl26265.jpg')">
+                        <div class="sotap">9/15</div>
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Hồn Ma Nàng Vũ Ưu </b>
+                        <p>Wang Nang Hong (2017)</p></div>
+                </a> <a href="abc/xemphim/12-monkeys-season-4-12-con-khi-phan-4-20344" class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_dme32495.jpg')">
+                        <div class="sotap">3/10</div>
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">12 Con Khỉ: Phần 4</b>
+                        <p>12 Monkeys: Season 4 (2018)</p></div>
+                </a> <a href="abc/xemphim/marry-me-now-shall-we-live-together-19720" class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_dmm13051.jpg')">
+                        <div class="sotap">29/50</div>
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Làm Vợ Anh Nhé</b>
+                        <p>Marry Me Now? (2018)</p></div>
+                </a> <a href="abc/xemphim/khu-pho-vui-nhon-ban-saran-land-19665" class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_don52976.jpg')">
+                        <div class="sotap">20/20</div>
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Khu Phố Vui Nhộn: Hổ Phụ Sinh Hổ Nữ</b>
+                        <p>Ban Saran Land: Suparburoot Sut Soi (2018)</p></div>
+                </a>
+                <a href="abc/xemphim/khu-pho-vui-nhon-hang-rao-tinh-yeu-ban-saran-land-seuk-rak-kam-rua-20045"
+                   class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_drd32183.jpg')">
+                        <div class="sotap">20/20</div>
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Khu Phố Vui Nhộn: Hàng Rào Tình Yêu </b>
+                        <p>Ban Saran Land: Seuk Rak Kam Rua (2018)</p></div>
+                </a> <a href="abc/xemphim/vi-em-anh-nguyen-yeu-ca-the-gioi-my-story-for-you-20331"
+                        class="film-small no-margin">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/20331/poster_01_dsd93898.jpg')">
+                        <div class="sotap">7/48</div>
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Vì Em, Anh Nguyện Yêu Cả Thế Giới </b>
+                        <p>My Story for You (2018)</p></div>
+                </a></div>
+        </div>
+        <div class="group-film" id="cat-phim-le" data-page="1" data-slug=""><h2><a href="abc/phim-le">phim lẻ
+                    chọn lọc<i class="fa fa-caret-right" aria-hidden="true"></i></a></h2>
+            <ul class="phanloai">
+                <li><a href="javascript:;" onclick="phim_le('hanh-dong', 1, '');" title="Phim lẻ Hành động">Hành
+                        động</a></li>
+                <li><a href="javascript:;" onclick="phim_le('hai', 1, '');" title="Phim lẻ Hài">Hài</a></li>
+                <li><a href="javascript:;" onclick="phim_le('tam-ly', 1, '');" title="Phim lẻ Tâm Lý">Tâm Lý</a></li>
+                <li><a href="javascript:;" onclick="phim_le('kinh-di', 1, '');" title="Phim lẻ Kinh dị">Kinh dị</a></li>
+            </ul>
+            <ul class="sapxep">
+                <li><a href="javascript:;" onclick="phim_le('', 1, '');" title="Ngày cập nhật" class="active">Ngày cập
+                        nhật</a></li>
+                <li><a href="javascript:;" onclick="phim_le('', 1, 'imdb');" title="IMDB">IMDB</a></li>
+                <li><a href="javascript:;" onclick="phim_le('', 1, 'name');" title="Tên phim">Tên phim</a></li>
+            </ul>
+            <a href="abc/phim-le" class="more"></a> <span class="line-ngang"></span>
+            <div class="arrow"><a href="javascript:;" onclick="phim_le('', 0, '');" class="left disabled"></a> <a
+                        href="javascript:;" onclick="phim_le('', 2, '');" class="right "></a></div>
+            <div class="group-film-small"><a
+                        href="abc/xemphim/paul-apostle-of-christ-thanh-phaolo-tong-do-cua-chua-kito-20246"
+                        class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_qkf56984.jpg')">
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Sứ Đồ Của Chúa Kito</b>
+                        <p>Paul, Apostle of Christ (2018)</p></div>
+                </a> <a href="abc/xemphim/ready-player-one-dau-truong-ao-19834" class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_lmu70480.jpg')">
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Đấu Trường Ảo</b>
+                        <p>Ready Player One (2018)</p></div>
+                </a> <a href="abc/xemphim/selfie-from-hell-selfie-voi-than-chet-19964" class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_rum23767.jpg')">
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Selfie Với Thần Chết</b>
+                        <p>Selfie from Hell (2018)</p></div>
+                </a> <a href="abc/xemphim/devils-gate-cong-dia-nguc-19522" class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_jkn47868.jpg')">
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Cổng Địa Ngục</b>
+                        <p>Devil's Gate (2017)</p></div>
+                </a> <a href="abc/xemphim/2036-origin-unknown-vu-an-sao-hoa-20298" class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_nkg87059.jpg')">
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Vụ Án Sao Hỏa</b>
+                        <p>2036 Origin Unknown (2018)</p></div>
+                </a> <a href="abc/xemphim/7-days-in-entebbe-chien-dich-entebbe-20333"
+                        class="film-small no-margin">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_soo36004.jpg')">
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Chiến Dịch Entebbe</b>
+                        <p>7 Days in Entebbe (2018)</p></div>
+                </a> <a href="abc/xemphim/burning-thieu-dot-20345" class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/20345/poster_01_fsj53573.jpg')">
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Thiêu Đốt</b>
+                        <p>Burning (2018)</p></div>
+                </a> <a href="abc/xemphim/americano-chu-vet-anh-hung-20343" class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_tpp21386.jpg')">
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Chú Vẹt Anh Hùng</b>
+                        <p>Americano (2016)</p></div>
+                </a> <a href="abc/xemphim/family-of-winners-lien-minh-game-thu-20295" class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_hdq50004.jpg')">
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                            <li>
+                                <div class="sd tm">tm</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Liên Minh Game Thủ</b>
+                        <p>Family of Winners (2017)</p></div>
+                </a> <a href="abc/xemphim/yurigokoro-si-tam-20342" class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_hop23180.jpg')">
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Si Tâm</b>
+                        <p>Yurigokoro (2017)</p></div>
+                </a> <a href="abc/xemphim/the-white-helmets-doi-cuu-ho-thien-nguyen-17696"
+                        class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_eje99950.jpg')">
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Đội Cứu Hộ Thiện Nguyện</b>
+                        <p>The White Helmets (2016)</p></div>
+                </a> <a href="abc/xemphim/mei-ren-she-cuoc-chien-my-nhan-20340" class="film-small no-margin">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_utu72829.jpg')">
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                            <li>
+                                <div class="sd tm">tm</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Cuộc Chiến Mỹ Nhân</b>
+                        <p>Mei Ren She (2017)</p></div>
+                </a></div>
+        </div>
+        <div class="quangcao">
+            <div id="bsmasthead-wrapper"></div>
+            <script src="//d4.hadarone.com/ads-sync.js?placement=1974"></script>
+        </div>
+        <div class="group-film" id="cat-phim-anime" data-page="1" data-slug="nhat-ban"><h2><a
+                        href="abc/the-loai/anime">Anime<i class="fa fa-caret-right"
+                                                                     aria-hidden="true"></i></a></h2>
+            <ul class="phanloai"></ul>
+            <ul class="sapxep">
+                <li><a href="javascript:;" onclick="phim_anime('nhat-ban', 1, '');" title="Ngày cập nhật"
+                       class="active">Ngày cập nhật</a></li>
+                <li><a href="javascript:;" onclick="phim_anime('nhat-ban', 1, 'imdb');" title="IMDB">IMDB</a></li>
+                <li><a href="javascript:;" onclick="phim_anime('nhat-ban', 1, 'name');" title="Tên phim">Tên phim</a>
+                </li>
+            </ul>
+            <a href="abc/the-loai/anime" class="more"></a> <span class="line-ngang"></span>
+            <div class="arrow"><a href="javascript:;" onclick="phim_anime('nhat-ban', 0, '');"
+                                  class="left disabled"></a> <a href="javascript:;"
+                                                                onclick="phim_anime('nhat-ban', 2, '');"
+                                                                class="right "></a></div>
+            <div class="group-film-small"><a
+                        href="abc/xemphim/nhung-chang-quan-gia-cau-chuyen-thien-nien-ky-butlers-chitose-momotose-monogatari-20232"
+                        class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_edp12715.jpg')">
+                        <div class="sotap">11/12</div>
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Những Chàng Quản Gia: Câu Chuyện Thiên Niên
+                            Kỷ </b>
+                        <p>Butlers: Chitose Momotose Monogatari (2018)</p></div>
+                </a>
+                <a href="abc/xemphim/nanatsu-no-taizai-season-3-nanatsu-no-taizai-imashime-no-fukkatsu-19381"
+                   class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_qpr94461.jpg')">
+                        <div class="sotap">23/24</div>
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Nanatsu no Taizai: Imashime no Fukkatsu</b>
+                        <p>The Seven Deadly Sins: Revival of the Commandments (2018)</p></div>
+                </a> <a href="abc/xemphim/tada-kun-wa-koi-wo-shinai-20184" class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_gol85674.jpg')">
+                        <div class="sotap">12/16</div>
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Tada kun wa Koi wo Shinai</b>
+                        <p>2018</p></div>
+                </a> <a href="abc/xemphim/3d-kanojo-real-girl-3d-girlfriend-season-1-19861"
+                        class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_dpm60481.jpg')">
+                        <div class="sotap">12/12</div>
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Bạn Gái 3D</b>
+                        <p>3D Kanojo: Real Girl (2018)</p></div>
+                </a> <a href="abc/xemphim/steinsgate-0-steinsgate-zero-19865" class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_rui44156.jpg')">
+                        <div class="sotap">10/23</div>
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Steins;Gate 0 </b>
+                        <p>Steins,Gate Zero (2018)</p></div>
+                </a> <a href="abc/xemphim/quan-tro-bach-quy-kakuriyo-no-yadomeshi-20200"
+                        class="film-small no-margin">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_itu29285.jpg')">
+                        <div class="sotap">12/26</div>
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Quán Trọ Bách Quỷ</b>
+                        <p>Kakuriyo no Yadomeshi (2018)</p></div>
+                </a> <a href="abc/xemphim/comic-girls-season1-20195" class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_lqo50351.jpg')">
+                        <div class="sotap">11/12</div>
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Comic Girls Season1</b>
+                        <p>2018</p></div>
+                </a> <a href="abc/xemphim/tay-dam-toi-thuong-phan-1-megalo-box-season-1-19864"
+                        class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_uss80095.jpg')">
+                        <div class="sotap">11/13</div>
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Tay Đấm Tối Thượng Phần 1 </b>
+                        <p>Megalo Box Season 1 (2018)</p></div>
+                </a>
+                <a href="abc/xemphim/dances-with-the-dragons-season-1-saredo-tsumibito-wa-ryuu-to-odoru-19849"
+                   class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_riu75118.jpg')">
+                        <div class="sotap">11/12</div>
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Saredo Tsumibito wa Ryuu to Odoru</b>
+                        <p>Dances with the Dragons Season 1 (2018)</p></div>
+                </a>
+                <a href="abc/xemphim/wotaku-ni-koi-wa-muzukashii-phan-1-wotakoi-love-is-hard-for-otaku-season-1-19882"
+                   class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_mlk93356.jpg')">
+                        <div class="sotap">10/11</div>
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Wotaku ni Koi wa Muzukashii: Phần 1 </b>
+                        <p>Wotakoi: Love Is Hard for Otaku Season 1 (2018)</p></div>
+                </a>
+                <a href="abc/xemphim/katana-maidens-toji-no-miko-season-1-nu-kiem-khach-hoc-duong-phan-1-x01-19470"
+                   class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_liq71795.jpg')">
+                        <div class="sotap">23/24</div>
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Nữ Kiếm Khách Học Đường Phần 1</b>
+                        <p>Katana Maidens: Toji no Miko Season 1 (2018)</p></div>
+                </a> <a href="abc/xemphim/mahou-shoujo-site-season-1-magical-girl-site-season-1-20072"
+                        class="film-small no-margin">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_gok54261.jpg')">
+                        <div class="sotap">11/12</div>
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Magical Girl Site: season 1</b>
+                        <p>Mahou Shoujo Site: season 1 (2018)</p></div>
+                </a></div>
+        </div>
+        <div class="group-film" id="cat-phim-hoat-hinh" data-page="1" data-slug=""><h2><a  href="abc/the-loai/hoat-hinh">Phim hoạt hình
+            <i class="fa fa-caret-right" aria-hidden="true"></i></a></h2>
+            <ul class="phanloai"></ul>
+            <ul class="sapxep">
+                <li><a href="javascript:;" onclick="phim_hoat_hinh('', 1, '');" title="Ngày cập nhật" class="active">Ngày
+                        cập nhật</a></li>
+                <li><a href="javascript:;" onclick="phim_hoat_hinh('', 1, 'imdb');" title="IMDB">IMDB</a></li>
+                <li><a href="javascript:;" onclick="phim_hoat_hinh('', 1, 'name');" title="Tên phim">Tên phim</a></li>
+            </ul>
+            <a href="abc/the-loai/hoat-hinh" class="more"></a> <span class="line-ngang"></span>
+            <div class="arrow"><a href="javascript:;" onclick="phim_hoat_hinh('', 0, '');" class="left disabled"></a> <a
+                        href="javascript:;" onclick="phim_hoat_hinh('', 2, '');" class="right "></a></div>
+            <div class="group-film-small"><a href="abc/xemphim/americano-chu-vet-anh-hung-20343"
+                                             class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_tpp21386.jpg')">
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Chú Vẹt Anh Hùng</b>
+                        <p>Americano (2016)</p></div>
+                </a> <a href="abc/xemphim/comic-girls-season1-20195" class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_lqo50351.jpg')">
+                        <div class="sotap">11/12</div>
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Comic Girls Season1</b>
+                        <p>2018</p></div>
+                </a> <a href="abc/xemphim/sherlock-gnomes-tham-tu-sieu-quay-20207" class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_llh55608.jpg')">
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Thám Tử Siêu Quậy</b>
+                        <p>Sherlock Gnomes (2018)</p></div>
+                </a> <a href="abc/xemphim/gnomeo-juliet-gnomeo-va-juliet-131" class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_dtj20539.jpg')">
+                        <ul class="tag-film">
+                            <li>
+                                <div class="sd">SD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Gnomeo Và Juliet</b>
+                        <p>Gnomeo & Juliet (2011)</p></div>
+                </a> <a href="abc/xemphim/boonie-bears-mystical-winter-gau-boonie-2-gau-bu-nui-tuyet-14810"
+                        class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_heh71287.jpg')">
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Gấu Boonie 2: Gấu Bự Núi Tuyết</b>
+                        <p>Boonie Bears: Mystical Winter (2015)</p></div>
+                </a> <a href="abc/xemphim/the-robot-giant-vua-khong-lo-20219" class="film-small no-margin">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_idt21230.jpg')">
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                            <li>
+                                <div class="sd tm">tm</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Vua Khổng Lồ</b>
+                        <p>The Robot Giant (2012)</p></div>
+                </a> <a href="abc/xemphim/stand-by-me-doraemon-doi-ban-than-14030" class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_nmm93672.jpg')">
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                            <li>
+                                <div class="sd lt">lt</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Đôi Bạn Thân</b>
+                        <p>Stand by Me Doraemon (2014)</p></div>
+                </a> <a href="abc/xemphim/puss-in-boots-chu-meo-di-hia-137" class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_qhn46499.jpg')">
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                            <li>
+                                <div class="sd lt">lt</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Chú Mèo Đi Hia</b>
+                        <p>Puss in Boots (2011)</p></div>
+                </a> <a href="abc/xemphim/madagascar-3-europes-most-wanted-than-tuong-chau-au-3687"
+                        class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_rtl82274.jpg')">
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                            <li>
+                                <div class="sd lt">lt</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Thần Tượng Châu Âu</b>
+                        <p>Madagascar 3: Europe's Most Wanted (2012)</p></div>
+                </a> <a href="abc/xemphim/incredibles-2-gia-dinh-sieu-nhan-2-19317" class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_lme97996.jpg')">
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Gia Đình Siêu Nhân 2</b>
+                        <p>Incredibles 2 (2018)</p></div>
+                </a> <a href="abc/xemphim/kong-king-of-the-apes-season-2-kong-vua-khi-tai-xuat-phan-2-20036"
+                        class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_eno61050.jpg')">
+                        <div class="sotap">10/10</div>
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Kong: Vua Khỉ Tái Xuất: Phần 2</b>
+                        <p>Kong: King of the Apes: Season 2 (2018)</p></div>
+                </a> <a href="abc/xemphim/teana-10000-years-later-dai-chien-sau-tan-the-14689"
+                        class="film-small no-margin">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/14689/poster_01_mql75823.jpg')">
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Đại Chiến Sau Tận Thế</b>
+                        <p>Teana: 10000 Years Later (2015)</p></div>
+                </a></div>
+        </div>
+        <div class="group-film" id="cat-the-loai-tv-show" data-page="1" data-slug=""><h2><a href="abc/the-loai/tv-show">TV Shows
+            <i class="fa fa-caret-right" aria-hidden="true"></i></a></h2> <a
+                    href="abc/the-loai/tv-show" class="more"></a> <span class="line-ngang"></span>
+            <div class="arrow"><a href="javascript:;" onclick="phim_tv_show('', 0, '');" class="left disabled"></a> <a
+                        href="javascript:;" onclick="phim_tv_show('', 2, '');" class="right "></a></div>
+            <div class="group-film-small"><a href="abc/xemphim/running-man-18867" class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_fpu80496.jpg')">
+                        <div class="sotap">405/420</div>
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Running Man</b>
+                        <p>Running Man (2014)</p></div>
+                </a> <a href="abc/xemphim/ngoai-chan-la-bao-to-2-its-dangerous-beyond-the-blankets-20066"
+                        class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_djp28509.jpg')">
+                        <div class="sotap">8/10</div>
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Ngoài Chăn Là Bão Tố 2 </b>
+                        <p>It's Dangerous Beyond The Blankets) (2018)</p></div>
+                </a> <a href="abc/xemphim/quan-gia-mua-1-master-in-the-house-season-1-19511"
+                        class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_qki69966.jpg')">
+                        <div class="sotap">21/22</div>
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Quản Gia Mùa 1 </b>
+                        <p>Master In The House Season 1 (2017)</p></div>
+                </a> <a href="abc/xemphim/1-tinh-ban-1-friendship-20050" class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_tuj78754.jpg')">
+                        <div class="sotap">7/10</div>
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">1% Tình Bạn </b>
+                        <p>1% Friendship (2018)</p></div>
+                </a> <a href="abc/xemphim/i-can-see-your-voice-mua-5-i-can-see-your-voice-season-5-19667"
+                        class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_mmu27950.jpg')">
+                        <div class="sotap">13/20</div>
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">I Can See Your Voice Mùa 5 </b>
+                        <p>I Can See Your Voice Season 5 (2018)</p></div>
+                </a> <a href="abc/xemphim/nha-tro-cua-hyori-mua-2-hyoris-bed-and-breakfast-season-2-19635"
+                        class="film-small no-margin">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_lho82529.jpg')">
+                        <div class="sotap">15/16</div>
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Nhà Trọ Của Hyori: Mùa 2 </b>
+                        <p>Hyori's Bed And Breakfast: Season 2 (2018)</p></div>
+                </a></div>
+        </div>
+        <div class="group-film" id="cat-phim-sap-chieu" data-page="1" data-slug=""><h2><a  href="http://vung.tv/phim-sap-chieu">Phim Sắp Chiếu
+            <i class="fa fa-caret-right" aria-hidden="true"></i></a></h2> <a
+                    href="http://vung.tv/phim-sap-chieu" class="more"></a> <span class="line-ngang"></span>
+            <div class="arrow"><a href="javascript:;" onclick="phim_sap_chieu('', 0, '');" class="left disabled"></a> <a
+                        href="javascript:;" onclick="phim_sap_chieu('', 2, '');" class="right "></a></div>
+            <div class="group-film-small"><a href="abc/xemphim/isle-of-dogs-dao-cua-nhung-chu-cho-20053"
+                                             class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_smd90250.jpg')">
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Đảo Của Những Chú Chó</b>
+                        <p>Isle of Dogs (2018)</p></div>
+                </a> <a href="abc/xemphim/bent-diep-vien-gia-mao-20356" class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_nru43472.jpg')">
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Điệp Viên Giả Mạo</b>
+                        <p>Bent (2018)</p></div>
+                </a> <a href="abc/xemphim/small-town-crime-thi-tran-toi-pham-20355" class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_jut35990.jpg')">
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Thị Trấn Tội Phạm</b>
+                        <p>Small Town Crime (2017)</p></div>
+                </a> <a href="abc/xemphim/kings-bao-loan-o-los-angeles-20357" class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_olt81476.jpg')">
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Bạo Loạn Ở Los Angeles</b>
+                        <p>Kings (2017)</p></div>
+                </a> <a href="abc/xemphim/the-great-buddha-dai-phat-buddha-20353" class="film-small ">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_eqd15539.jpg')">
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Đại Phật Buddha</b>
+                        <p>The Great Buddha + (2017)</p></div>
+                </a> <a href="abc/xemphim/the-whiskey-bandit-ten-cuop-nghien-ruou-20352"
+                        class="film-small no-margin">
+                    <div class="poster-film-small"
+                         style="background-image:url('images/movies/poster_01_mls64826.jpg')">
+                        <ul class="tag-film">
+                            <li>
+                                <div class="hd">HD</div>
+                            </li>
+                        </ul>
+                        <div class="play"></div>
+                    </div>
+                    <div class="title-film-small"><b class="title-film">Tên Cướp Nghiện Rượu</b>
+                        <p>The Whiskey Bandit (2017)</p></div>
+                </a></div>
+        </div>
+    </div>
+    <div class="khoi-phai"> <!-- Start quảng cáo-->
+        <div class="quangcao quangcao-first">
+            <script type="text/javascript"
+                    src="//vn-platform.bidgear.com/ads.php?domainid=1194&sizeid=2&zoneid=1734&k=5b18bfcf87730"></script>
+            <br>
+            <!-- Begin js tags AdTrue for vung.tv_300x250_mobile - Do not Modify -->
+            <div id="adtrue_tag_9804"></div>
+            <script data-cfasync='false' type='text/javascript' src='//cdn.adtrue.com/rtb/async.js' async></script>
+            <script type="text/javascript"> var adtrue_tags = window.adtrue_tags || [];
+                adtrue_tags.push({tag_id: 9804, width: 300, height: 250});
+            </script>
+            <!-- End Tags -->
+            <!--/* * * Revive Adserver Asynchronous JS Tag * - Generated with Revive Adserver v4.0.0 * */-->
+            <ins data-revive-zoneid="107" data-revive-id="14164cfc63291e072a41a90dc93beb84"></ins>
+            <script async src="//delivery.vungtv.com/vungtv/asyncjs.php"></script>
+        </div>
+        <div class="top-tintuc"><h3><a href="http://2tin.net/" target="_blank">Tin tức</a></h3>
+            <ul id="blog1" class="film active">
+                <li>
+                    <a href="http://2tin.net/chuyen-that-nhu-dua-my-nam-nhu-kim-woo-bin-cung-khong-dam-eye-contact-voi-suzy-viqua-dep-9354.html"
+                       target="_blank">
+                        <div class="image"
+                             style="background-image:url(/uploads/2018/thang5/chuyen-that-nhu-dua-my-nam-nhu-kim-woo-bin-cung-khong-dam-eye-contact-voi-suzy-vi-qua-dep.jpg)"></div>
+                        <div class="info"><b class="title-phim"
+                                             alt="Chuy&#7879;n th&#7853;t nh&#432; &#273;&ugrave;a, m&#7929; nam nh&#432; Kim Woo Bin c&#361;ng kh&ocirc;ng d&aacute;m Eye-contact v&#7899;i Suzy v&igrave;...qu&aacute; &#273;&#7865;p">Chuyện
+                                thật như đùa, mỹ nam như Kim Woo Bin cũng không dám Eye-contact với Suzy vì...quá
+                                đẹp</b></div>
+                    </a></li>
+                <li>
+                    <a href="http://2tin.net/fan-cua-park-seo-joon-phan-doi-kich-liet-khi-k-net-muon-gong-yoo-dong-vai-nam-chinh-thu-ky-kim-2tlmt95-9353.html"
+                       target="_blank">
+                        <div class="image"
+                             style="background-image:url(/uploads/2018/thang5/fan-cua-park-seo-joon-phan-doi-kich-liet-khi-k-net-muon-gong-yoo-dong-vai-nam-chinh-thu-ky-kim.jpg)"></div>
+                        <div class="info"><b class="title-phim"
+                                             alt="Fan c&#7911;a Park Seo Joon ph&#7843;n &#273;&#7889;i k&#7883;ch li&#7879;t khi K-net mu&#7889;n Gong Yoo &#273;&oacute;ng vai nam ch&iacute;nh &lsquo;Th&#432; k&yacute; Kim&rsquo;">Fan
+                                của Park Seo Joon phản đối kịch liệt khi K-net muốn Gong Yoo đóng vai nam chính ‘Thư ký
+                                Kim’</b></div>
+                    </a></li>
+                <li>
+                    <a href="http://2tin.net/vuot-mat-duong-mich-my-nam-it-ten-tuoi-cua-tran-hon-dung-dau-danh-sach-hot-nhat-truyen-thong-2tvnh93-9351.html"
+                       target="_blank">
+                        <div class="image"
+                             style="background-image:url(/uploads/2018/thang6/vuot-mat-duong-mich-my-nam-it-ten-tuoi-cua-tran-hon-dung-dau-danh-sach-hot-nhat-truyen-thong.jpg)"></div>
+                        <div class="info"><b class="title-phim"
+                                             alt="V&#432;&#7907;t m&#7863;t D&#432;&#417;ng M&#7883;ch, m&#7929; nam &iacute;t t&ecirc;n tu&#7893;i c&#7911;a &quot;Tr&#7845;n h&#7891;n&quot; &#273;&#7913;ng &#273;&#7847;u danh s&aacute;ch hot nh&#7845;t truy&#7873;n th&ocirc;ng">Vượt
+                                mặt Dương Mịch, mỹ nam ít tên tuổi của "Trấn hồn" đứng đầu danh sách hot nhất truyền
+                                thông</b></div>
+                    </a></li>
+                <li>
+                    <a href="http://2tin.net/cao-vien-vien-vua-du-lich-ve-trieu-huu-dinh-da-voi-vang-chay-den-san-bay-don-vo-2tvnh93-9350.html"
+                       target="_blank">
+                        <div class="image"
+                             style="background-image:url(/uploads/2018/thang6/cao-vien-vien-vua-du-lich-ve-trieu-huu-dinh-da-voi-vang-chay-den-san-bay-don-vo.jpg)"></div>
+                        <div class="info"><b class="title-phim"
+                                             alt="Cao Vi&ecirc;n Vi&ecirc;n v&#7915;a du l&#7883;ch v&#7873;, Tri&#7879;u H&#7921;u &#272;&igrave;nh &#273;&atilde; v&#7897;i v&agrave;ng ch&#7841;y &#273;&#7871;n s&acirc;n bay &#273;&oacute;n v&#7907;">Cao
+                                Viên Viên vừa du lịch về, Triệu Hựu Đình đã vội vàng chạy đến sân bay đón vợ</b></div>
+                    </a></li>
+                <li>
+                    <a href="http://2tin.net/park-seo-joon-jung-hae-in-duoc-long-dan-xu-han-nhat-vi-ly-do-nay-2tlmt95-9349.html"
+                       target="_blank">
+                        <div class="image"
+                             style="background-image:url(/uploads/2018/thang5/park-seo-joon-jung-hae-in-duoc-long-dan-xu-han-nhat-vi-ly-do-nay.jpg)"></div>
+                        <div class="info"><b class="title-phim"
+                                             alt="Park Seo Joon, Jung Hae In &quot;&#273;&#432;&#7907;c l&ograve;ng d&acirc;n&quot; x&#7913; H&agrave;n nh&#7845;t v&igrave; l&yacute; do n&agrave;y">Park
+                                Seo Joon, Jung Hae In "được lòng dân" xứ Hàn nhất vì lý do này</b></div>
+                    </a></li>
+                <li>
+                    <a href="http://2tin.net/khong-chiu-noi-chi-trich-sau-that-bai-cua-nguoi-dam-phan-hoang-tu-thao-tam-thoi-roi-lang-giai-tri-2tvnh93-9348.html"
+                       target="_blank">
+                        <div class="image"
+                             style="background-image:url(/uploads/images/2018/06/26/9348_4462875a1768b0f957276bbebe2f14a0/thumbnail.jpg)"></div>
+                        <div class="info"><b class="title-phim"
+                                             alt="Kh&ocirc;ng ch&#7883;u n&#7893;i ch&#7881; tr&iacute;ch sau th&#7845;t b&#7841;i c&#7911;a Ng&#432;&#7901;i &#272;&agrave;m Ph&aacute;n, Ho&agrave;ng T&#7917; Thao t&#7841;m th&#7901;i r&#7901;i l&agrave;ng gi&#7843;i tr&iacute;?">Không
+                                chịu nổi chỉ trích sau thất bại của Người Đàm Phán, Hoàng Tử Thao tạm thời rời làng giải
+                                trí?</b></div>
+                    </a></li>
+                <li>
+                    <a href="http://2tin.net/ton-le-bi-to-gio-thoi-ngoi-sao-chui-boi-nhan-vien-khi-dang-chup-anh-2tvnh93-9347.html"
+                       target="_blank">
+                        <div class="image"
+                             style="background-image:url(/uploads/2018/thang6/ton-le-bi-to-gio-thoi-ngoi-sao-chui-boi-nhan-vien-khi-dang-chup-anh.jpg)"></div>
+                        <div class="info"><b class="title-phim"
+                                             alt="T&ocirc;n L&#7879; b&#7883; t&#7889; gi&#7903; th&oacute;i ng&ocirc;i sao, ch&#7917;i b&#7899;i nh&acirc;n vi&ecirc;n khi &#273;ang ch&#7909;p &#7843;nh">Tôn
+                                Lệ bị tố giở thói ngôi sao, chửi bới nhân viên khi đang chụp ảnh</b></div>
+                    </a></li>
+                <li>
+                    <a href="http://2tin.net/chua-day-2-thang-on-thi-dai-hoc-diem-so-cua-thien-ti-khien-bao-nguoi-mo-uoc-2tvnh93-9346.html"
+                       target="_blank">
+                        <div class="image"
+                             style="background-image:url(/uploads/2018/thang6/chua-day-2-thang-on-thi-dai-hoc-diem-so-cua-thien-ti-khien-bao-nguoi-mo-uoc.jpg)"></div>
+                        <div class="info"><b class="title-phim"
+                                             alt="Ch&#432;a &#273;&#7847;y 2 th&aacute;ng &ocirc;n thi &#273;&#7841;i h&#7885;c, &#273;i&#7875;m s&#7889; c&#7911;a Thi&ecirc;n T&#7881; khi&#7871;n bao ng&#432;&#7901;i m&#417; &#432;&#7899;c">Chưa
+                                đầy 2 tháng ôn thi đại học, điểm số của Thiên Tỉ khiến bao người mơ ước</b></div>
+                    </a></li>
+                <li>
+                    <a href="http://2tin.net/phu-dao-nguyen-kinh-thien-lieu-minh-do-mot-nhat-kiem-de-cuu-mang-duong-mich-2tvnh93-9345.html"
+                       target="_blank">
+                        <div class="image"
+                             style="background-image:url(/uploads/2018/thang6/phu-dao-nguyen-kinh-thien-lieu-minh-do-mot-nhat-kiem-de-cuu-mang-duong-mich.jpg)"></div>
+                        <div class="info"><b class="title-phim"
+                                             alt="&ldquo;Ph&ugrave; Dao&rdquo;: Nguy&#7877;n K&iacute;nh Thi&ecirc;n li&#7873;u m&igrave;nh &#273;&#7905; m&#7897;t nh&aacute;t ki&#7871;m &#273;&#7875; c&#7913;u m&#7841;ng D&#432;&#417;ng M&#7883;ch">“Phù
+                                Dao”: Nguyễn Kính Thiên liều mình đỡ một nhát kiếm để cứu mạng Dương Mịch</b></div>
+                    </a></li>
+                <li>
+                    <a href="http://2tin.net/moi-len-song-phim-cua-dich-le-nhiet-ba-da-vuot-mat-duong-mich-de-doa-rating-cua-phu-dao-2tvnh93-9344.html"
+                       target="_blank">
+                        <div class="image"
+                             style="background-image:url(/uploads/2018/thang6/moi-len-song-phim-cua-dich-le-nhiet-ba-da-vuot-mat-duong-mich-de-doa-rating-cua-phu-dao.jpg)"></div>
+                        <div class="info"><b class="title-phim"
+                                             alt="M&#7899;i l&ecirc;n s&oacute;ng, phim c&#7911;a &#272;&#7883;ch L&#7879; Nhi&#7879;t Ba &#273;&atilde; v&#432;&#7907;t m&#7863;t D&#432;&#417;ng M&#7883;ch, &#273;e d&#7885;a rating c&#7911;a Ph&ugrave; Dao">Mới
+                                lên sóng, phim của Địch Lệ Nhiệt Ba đã vượt mặt Dương Mịch, đe dọa rating của Phù
+                                Dao</b></div>
+                    </a></li>
+            </ul>
+        </div> <!-- End quảng cáo-->
+        <div class="topphim-doc"><h3>top phim vui - phim lẻ</h3>
+            <ul class="film">
+                <li><a href="abc/xemphim/tomb-raider-tomb-raider-huyen-thoai-bat-dau-19813">
+                        <div class="image"
+                             style="background-image:url('images/movies/poster_01_hed63736.jpg')"></div>
+                        <div class="info"><b class="title-film">Tomb Raider 2018 : Huyền Thoại Bắt Đầu</b>
+                            <p>Tomb Raider 2018 (2018)</p> <span class="luotxem">Lượt xem ngày: 3067</span> <span
+                                    class="imdb">IMDB 6.8</span></div>
+                    </a></li>
+                <li><a href="abc/xemphim/rampage-sieu-thu-cuong-no-19892">
+                        <div class="image"
+                             style="background-image:url('images/movies/poster_01_ije35875.jpg')"></div>
+                        <div class="info"><b class="title-film">Siêu Thú Cuồng Nộ</b>
+                            <p>Rampage (2018)</p> <span class="luotxem">Lượt xem ngày: 814</span> <span class="imdb">IMDB 6.5</span>
+                        </div>
+                    </a></li>
+                <li><a href="abc/xemphim/incredibles-2-gia-dinh-sieu-nhan-2-19317">
+                        <div class="image"
+                             style="background-image:url('images/movies/poster_01_lme97996.jpg')"></div>
+                        <div class="info"><b class="title-film">Gia Đình Siêu Nhân 2</b>
+                            <p>Incredibles 2 (2018)</p> <span class="luotxem">Lượt xem ngày: 448</span> <span
+                                    class="imdb">IMDB N/A</span></div>
+                    </a></li>
+                <li><a href="abc/xemphim/escape-plan-2-hades-ke-hoach-dao-tau-2-20129">
+                        <div class="image"
+                             style="background-image:url('images/movies/poster_01_igk54054.jpg')"></div>
+                        <div class="info"><b class="title-film">Kế Hoạch Đào Tẩu 2: Địa Ngục</b>
+                            <p>Escape Plan 2: Hades (2018)</p> <span class="luotxem">Lượt xem ngày: 317</span> <span
+                                    class="imdb">IMDB N/A</span></div>
+                    </a></li>
+                <li><a href="abc/xemphim/ready-player-one-dau-truong-ao-19834">
+                        <div class="image"
+                             style="background-image:url('images/movies/poster_01_lmu70480.jpg')"></div>
+                        <div class="info"><b class="title-film">Đấu Trường Ảo</b>
+                            <p>Ready Player One (2018)</p> <span class="luotxem">Lượt xem ngày: 313</span> <span
+                                    class="imdb">IMDB 8</span></div>
+                    </a></li>
+            </ul>
+        </div>
+        <div class="quangcao">
+            <!--/* * * Revive Adserver Asynchronous JS Tag * - Generated with Revive Adserver v4.0.0 * */-->
+            <ins data-revive-zoneid="65" data-revive-id="14164cfc63291e072a41a90dc93beb84"></ins>
+            <script async src="//delivery.vungtv.com/vungtv/asyncjs.php"></script>
+        </div>
+        <div id="widget_top_film_country_by_type_phim-bo" class="topphim-ngang"><h3>Top phim bộ</h3>
+            <ul class="phanloai">
+                <li><a href="javascript:;" class="actived"
+                       onclick="top_view_country_by_type('my','phim-bo','week')">Mỹ</a></li>
+                <li><a href="javascript:;" class="" onclick="top_view_country_by_type('han-quoc', 'phim-bo','week')">Hàn
+                        Quốc</a></li>
+                <li><a href="javascript:;" class="" onclick="top_view_country_by_type('trung-quoc','phim-bo','week')">Trung
+                        Quốc</a></li>
+            </ul>
+            <ul id="blog1" class="film active">
+                <li><a href="abc/xemphim/prison-break-season-1-vuot-nguc-phan-1-679">
+                        <div class="image"
+                             style="background-image:url(images/slide/bg_01_ngp39186.jpg)"></div>
+                        <span class="imdb">IMDb <br> <b>8.5</b></span>
+                        <div class="info"><b class="title-film">Vượt Ngục: Phần 1</b>
+                            <p>Prison Break: Season 1 (2005)</p></div>
+                    </a></li>
+                <li><a href="abc/xemphim/game-of-thrones-season-1-cuoc-chien-ngai-vang-phan-1-625">
+                        <div class="image"
+                             style="background-image:url(images/slide/bg_01_ngp39185.jpg)"></div>
+                        <span class="imdb">IMDb <br> <b>9.4</b></span>
+                        <div class="info"><b class="title-film">Cuộc Chiến Ngai Vàng: Phần 1</b>
+                            <p>Game of Thrones: Season 1 (2011)</p></div>
+                    </a></li>
+                <li><a href="abc/xemphim/spartacus-season-1-blood-and-sand-spartacus-phan-1-mau-va-cat-1012">
+                        <div class="image"
+                             style="background-image:url(images/slide/bg_01_ngp39187.jpg)"></div>
+                        <span class="imdb">IMDb <br> <b>8.7</b></span>
+                        <div class="info"><b class="title-film">Spartacus: Phần 1 - Máu Và Cát</b>
+                            <p>Spartacus: Season 1 - Blood and Sand (2013)</p></div>
+                    </a></li>
+                <li><a href="abc/xemphim/prison-break-season-2-vuot-nguc-phan-2-1202">
+                        <div class="image"
+                             style="background-image:url(images/slide/bg_01_ngp39177.jpg)"></div>
+                        <span class="imdb">IMDb <br> <b>8.5</b></span>
+                        <div class="info"><b class="title-film">Vượt Ngục: Phần 2</b>
+                            <p>Prison Break: Season 2 (2006)</p></div>
+                    </a></li>
+                <li><a href="abc/xemphim/krypton-season-1-krypton-phan-1-19773">
+                        <div class="image"
+                             style="background-image:url(images/slide/bg_01_uri38826.jpg)"></div>
+                        <span class="imdb">IMDb <br> <b>8.7</b></span>
+                        <div class="info"><b class="title-film">Hành Tinh Siêu Nhân Phần 1</b>
+                            <p>Krypton Season 1 (2018)</p></div>
+                    </a></li>
+                <li><a href="abc/xemphim/westworld-season-2-the-gioi-vien-tay-phan-2-19911">
+                        <div class="image"
+                             style="background-image:url(images/slide/bg_01_ngp39187.jpg)"></div>
+                        <span class="imdb">IMDb <br> <b>8.9</b></span>
+                        <div class="info"><b class="title-film">Thế Giới Viễn Tây: Phần 2</b>
+                            <p>Westworld: Season 2 (2018)</p></div>
+                    </a></li>
+                <li><a href="abc/xemphim/into-the-badlands-season-2-vung-tu-dia-phan-2-17822">
+                        <div class="image"
+                             style="background-image:url(images/bg_01_ngp39188.jpg)"></div>
+                        <span class="imdb">IMDb <br> <b>8.6</b></span>
+                        <div class="info"><b class="title-film">Vùng Tử Địa: Phần 2</b>
+                            <p>Into the Badlands: Season 2 (2017)</p></div>
+                    </a></li>
+                <li><a href="abc/xemphim/young-sheldon-season-1-tuoi-tho-ba-dao-cua-sheldon-phan-1-19503">
+                        <div class="image"
+                             style="background-image:url(images//bg_01_ngp39180.jpg)"></div>
+                        <span class="imdb">IMDb <br> <b>6.6</b></span>
+                        <div class="info"><b class="title-film">Tuổi Thơ Bá Đạo Của Sheldon Phần 1</b>
+                            <p>Young Sheldon Season 1 (2017)</p></div>
+                    </a></li>
+                <li><a href="abc/xemphim/prison-break-season-3-vuot-nguc-phan-3-1582">
+                        <div class="image"
+                             style="background-image:url(images/bg_01_ngp39177.jpg)"></div>
+                        <span class="imdb">IMDb <br> <b>8.5</b></span>
+                        <div class="info"><b class="title-film">Vượt Ngục: Phần 3</b>
+                            <p>Prison Break: Season 3 (2007)</p></div>
+                    </a></li>
+                <li><a href="abc/xemphim/prison-break-season-4-vuot-nguc-phan-4-1778">
+                        <div class="image"
+                             style="background-image:url(images/bg_01_ngp39177.jpg)"></div>
+                        <span class="imdb">IMDb <br> <b>8.5</b></span>
+                        <div class="info"><b class="title-film">Vượt Ngục: Phần 4</b>
+                            <p>Prison Break: Season 4 (2008)</p></div>
+                    </a></li>
+            </ul>
+        </div>
+        <div class="chudehot"><h3><a href="http://vung.tv/chu-de-hot" style="text-decoration:none;color:#cdcdcd;"> chủ
+                    đề hot</a></h3>
+            <ul>
+                <li><a href="http://vung.tv/phim-valentine"
+                       style="background-image:url(images/phim-valentine.jpg);background-size: cover;"></a>
+                </li>
+                <li><a href="http://vung.tv/phim-giang-sinh"
+                       style="background-image:url(images/phim-giang-sinh.jpg);background-size: cover;"></a>
+                </li>
+                <li><a href="abc/the-loai/kinh-di"
+                       style="background-image:url(images/halloween.jpg);background-size: cover;"></a>
+                </li>
+                <li><a href="http://vung.tv/tag/phim-ngon-tinh"
+                       style="background-image:url(/17/Ngon-Tinh-Trung-Quoc.jpg);background-size: cover;"></a>
+                </li>
+                <li><a href="abc/the-loai/thanh-xuan-hoc-duong"
+                       style="background-image:url(/17/Thanh-Xuan-Hoc-Duong.jpg);background-size: cover;"></a>
+                </li>
+                <li><a href="http://vung.tv/tag/nganh-y"
+                       style="background-image:url(/Chu-De-Nganh-Y.jpg);background-size: cover;"></a>
+                </li>
+                <li><a href="http://vung.tv/tag/di-nhan"
+                       style="background-image:url(/15/Chu-De-Di-Nhan.jpg);background-size: cover;"></a>
+                </li>
+                <li><a href="http://vung.tv/tag/pha-an"
+                       style="background-image:url(/15/Chu-De-Tham-Tu.jpg);background-size: cover;"></a>
+                </li>
+                <li><a href="abc/the-loai/co-trang"
+                       style="background-image:url(/17/Co-Trang-Trung-Quoc.jpg);background-size: cover;"></a>
+                </li>
+                <li><a href="abc/the-loai/dam-my-bach-hop"
+                       style="background-image:url(/17/Dam-My-Bach-Hop.jpg);background-size: cover;"></a>
+                </li>
+                <li><a href="abc/quoc-gia/an-do"
+                       style="background-image:url(/15/Chu-De-Bollywood.jpg);background-size: cover;"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="fb">
+            <div class="fb-page" data-href="https://www.facebook.com/vungtv/" data-width="300" data-small-header="false"
+                 data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"
+                 data-show-posts="false">
+                <blockquote cite="https://www.facebook.com/vungtv/" class="fb-xfbml-parse-ignore"><a
+                            href="https://www.facebook.com/vungtv/">Vừng TV</a></blockquote>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="footer1"><a href="http://vung.tv/"
+                            style="background-image:url(http://vung.tv/desktop/assets/img/logo-top.png)"></a>
+        <ul>
+            <li><a href="abc/about/hoidap-huongdan">Hỏi đáp - Hướng dẫn</a></li>
+            <li><a href="abc/about/dieukhoan-sudung">Điều khoản sử dụng</a></li>
+            <li><a href="abc/about/chinhsach-riengtu">Chính sách riêng tư</a></li>
+            <li><a href="abc/about/nguyentac-congdong">Nguyên tắc Cộng Đồng</a></li>
+            <li><a href="abc/about/lienhe">Liên hệ Quảng Cáo</a></li>
+        </ul>
+        <div>Copyright ©2016 vung.tv. All Rights Reserved.</div>
+    </div>
+</footer>
+<!-- quang cao fix bottom ads balloon -->
+<div class="ads-fix-bottom">
+    <div class="button-show-hide"><a id="tat-qc" class="show-1 actived">Ẩn quảng cáo</a> <a id="bat-qc" class="hide-1">Hiện
+            quảng cáo</a></div>
+    <div>
+        <script src="//d2.hadarone.com/ads-sync.js?placement=1975"></script>
+    </div>
+</div>
+<!-- /quang cao fix bottom ads balloon -->
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<script>function googleClientLoad() {
+        gapi.load('client:auth2', function () {
+            gapi.client.init({
+                apiKey: 'BOXkjPxIYlrQLrdJ1YLalm4r',
+                clientId: '899316289181-3q7i8i9u4rud6fgqa6642pip0b6jcpkq.apps.googleusercontent.com',
+                scope: 'profile'
+            });
+        });
+    }</script>
+<script async defer src="https://apis.google.com/js/api.js" onload="this.onload=function(){};googleClientLoad()"
+        onreadystatechange="if (this.readyState === 'complete') this.onload()"></script>
 
-				<!-- Collect the nav links, forms, and other content for toggling --> 
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> 
-					<ul class="nav navbar-nav"> 
-						<li class="dropdown"> 
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Thể Loại
-								<span class="caret"></span>
-							</a> 
-							<ul class="dropdown-menu" role="menu"> 
-								<li>
-									<a href="http://vung.tv/the-loai/am-nhac">&Acirc;m nhạc</a>
-								</li> 
-								<li>
-									<a href="http://vung.tv/the-loai/anime">Anime</a>
-								</li> 
-								<li>
-									<a href="http://vung.tv/the-loai/bi-an">B&iacute; ẩn</a>
-								</li>
-								<li>
-									<a href="http://vung.tv/the-loai/chien-tranh">Chiến tranh</a>
-								</li> 
-								<li>
-									<a href="http://vung.tv/the-loai/dam-my-bach-hop">Đam Mỹ - B&aacute;ch Hợp</a>
-								</li> 
-								<li>
-									<a href="http://vung.tv/the-loai/gia-dinh">Gia đ&igrave;nh</a>
-								</li> 
-								<li>
-									<a href="http://vung.tv/the-loai/gia-tuong-than-thoai">Giả tưởng - Thần thoại</a>
-								</li>
-								<li>
-									<a href="http://vung.tv/the-loai/giat-gan">Giật g&acirc;n</a>
-								</li> 
-								<li>
-									<a href="http://vung.tv/the-loai/hai">H&agrave;i</a>
-								</li> 
-								<li>
-									<a href="http://vung.tv/the-loai/hanh-dong">H&agrave;nh động</a>
-								</li> 
-								<li>
-									<a href="http://vung.tv/the-loai/hinh-su">H&igrave;nh sự</a>
-								</li> 
-							 </ul> 
-						</li> 
-						<!-- Quốc gia-->
-						<li class="dropdown"> 
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Quốc Gia 
-								<span class="caret"></span>
-							</a> 
-							<ul class="dropdown-menu" role="menu"> 
-								<li>
-									<a href="http://vung.tv/quoc-gia/an-do">Ấn Độ</a>
-								</li> 
-								<li>
-									<a href="http://vung.tv/quoc-gia/anh">Anh</a>
-								</li> 
-								<li>
-									<a href="http://vung.tv/quoc-gia/han-quoc">H&agrave;n Quốc</a>
-								</li> 
-								<li>
-									<a href="http://vung.tv/quoc-gia/hong-kong">Hồng K&ocirc;ng</a>
-								</li> 
-								<li>
-									<a href="http://vung.tv/quoc-gia/my">Mỹ</a>
-								</li> 
-								<li>
-									<a href="http://vung.tv/quoc-gia/viet-nam">Việt Nam</a>
-								</li>
-							</ul> 
-						</li> 
-						<!-- The Loai-->
-						<li class="dropdown"> 
-							<a href="http://vung.tv/phim-le" class="dropdown-toggle" role="button" aria-expanded="false">Phim Lẻ 
-								<span class="caret"></span>
-							</a> 
-							<ul class="dropdown-menu" role="menu"> 
-								<li>
-									<a href="http://vung.tv/phim-le/2018">2018</a>
-								</li> 
-								<li>
-									<a href="http://vung.tv/phim-le/2017">2017</a>
-								</li> 
-								<li>
-									<a href="http://vung.tv/phim-le/2016">2016</a>
-								</li> 
-								<li>
-									<a href="http://vung.tv/phim-le/2015">2015</a>
-								</li>  
-							</ul> 
-						</li> 
-						<li class="dropdown">
-							<a href="http://vung.tv/phim-bo" class="dropdown-toggle" role="button" aria-expanded="false">Phim Bộ
-								<span class="caret"></span>
-							</a> 
-							<ul class="dropdown-menu" role="menu"> 
-								<li>
-									<a href="http://vung.tv/phim-bo/an-do">Ấn Độ</a>
-								</li> 
-								<li>
-									<a href="http://vung.tv/phim-bo/anh">Anh</a>
-								</li> 
-								<li>
-									<a href="http://vung.tv/phim-bo/han-quoc">H&agrave;n Quốc</a>
-								</li> 
-								<li>
-									<a href="http://vung.tv/phim-bo/hong-kong">Hồng K&ocirc;ng</a>
-								</li>
-							</ul> 
-						</li> 
-						<li>
-							<a href="http://vung.tv/phim-de-cu">Phim Đề Cử</a> 
-							<li>
-								<a href="http://vung.tv/phim-chieu-rap">Phim Chiếu Rạp</a>
-								 <li>
-								 	<a href="http://2tin.net/" target="_blank">Tin Tức</a>  
-								 	<li>
-					</ul> 
-				 	<ul class="nav navbar-nav navbar-right"> 
-				 		<li> 
-				 			<form class="navbar-form" enctype="application/x-www-form-urlencoded" role="search" id="search-block" method="get" action="http://vung.tv/tim-kiem/"> 
-				 				<div class="form-group"> 
-				 					<input type="text" class="form-control" id="query_search" placeholder="Search" name="q" maxlength="100" autocomplete="off"/> 
-				 				</div> 
-				 				<button type="submit" class="btn btn-default">
-				 					<span class="glyphicon glyphicon-search"></span>
-				 				</button> 
-				 				<div class="search-hint" id="search-hint"></div> 
-				 			</form> 
-				 		</li> 
-				 		<li> 
-				 			<button type="button" class="nut-dangnhap">Đăng nhập</button> 
-				 		</li> 
-				 	</ul> 
-				 </div> 
-				</div> 
-			</nav>
-		<div id="bswrapper_inhead"></div>
-		<div class="container khoi-body">
-		 <div class="khoi-trai"> 
-		 	<div class="slider top-slider"> 
-		 	</div> 
-		 	<div class="group-film"> 
-		 		<h2>
-		 			<a href="http://vung.tv/phim-de-cu">phim đề cử
-		 				<i class="fa fa-caret-right" aria-hidden="true"></i>
-		 			</a>
-		 		</h2> <a href="http://vung.tv/phim-de-cu" class="more"></a> 
-		 		<span class="line-ngang"></span> 
-		 		<div class="phimdecu-slider"> 
-		 		</div> 
-		 	</div>
-		 </div>
-		</div>
-		<div class="top-tintuc"> 
-		</div>
-		<div id="widget_top_film_country_by_type_phim-bo" class="topphim-ngang">
-		</div>
-			<footer> 
-				<div class="footer1"> 
-					<a href="footer"></a> 
-					<ul> 
-						<li>
-							<a href="http://vung.tv/about/hoidap-huongdan">Hỏi đáp - Hướng dẫn</a>
-						</li> 
-						<li>
-							<a href="http://vung.tv/about/dieukhoan-sudung">Điều khoản sử dụng</a>
-						</li> 
-						<li>
-							<a href="http://vung.tv/about/chinhsach-riengtu">Chính sách riêng tư</a>
-						</li> 
-						<li>
-							<a href="http://vung.tv/about/nguyentac-congdong">Nguyên tắc Cộng Đồng</a>
-						</li>  
-					</ul> 
-					<div>Copyright ©2016 vung.tv. All Rights Reserved.</div> 
-				</div>
-	</footer>
+<script type="text/javascript" src="js/main-footer.js?v=2.0.40"></script>
+<!--<iframe style="display:none;width:0;height:0;border:0; border:none;" width="0" height="0" href="https://drive.google.com/file/d/0B_F4HNnLoQMPQTc1b0NXWHN0QlU/view"></iframe>-->
 </body>
 </html>
+<!-- 113.160.173.209 - xử lý trong 0.0429 dùng 2.843 bộ nhớ - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36 -->
